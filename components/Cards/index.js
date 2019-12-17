@@ -34,8 +34,6 @@ axios
   });
 
 function CardComponent(obj) {
-  console.log(obj);
-
   const newCard = document.createElement("div");
   const headline = document.createElement("div");
   const authorDiv = document.createElement("div");
